@@ -10,7 +10,6 @@ It automates the attendance process by detecting and recognizing known faces thr
 - 👥 Simultaneous multiple face recognition
 - 🚨 Unknown face detection and warning
 - 🗂️ Attendance saved in CSV file format
-- ✅ Lightweight and efficient UI with live updates
 
 ## Technologies Used
 - Python 3
