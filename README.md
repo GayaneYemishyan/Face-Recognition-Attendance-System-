@@ -29,9 +29,21 @@ It automates the attendance process by detecting and recognizing known faces thr
 pip install opencv-python
 pip install face_recognition
 pip install numpy
+
 3. **Prepare known faces**
 • Place your known face images inside the AttendancePhotos folder.
+
 • Each image filename should be the person's name.
 4. **Run the project**
 python AttendanceProject.py
+
+
+
+---
+
+### 🔍 Why this works:
+- The triple backticks ` ```bash ` start a **code block** for commands.
+- The closing triple backticks ` ``` ` end the code block before continuing with plain text.
+
+Let me know if you want me to review or format your full `README.md`!
 
