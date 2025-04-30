@@ -32,5 +32,5 @@ pip install numpy
 • Place your known face images inside the AttendancePhotos folder.
 • Each image filename should be the person's name.
 4. **Run the project**
-python main.py
+python AttendanceProject.py
 
