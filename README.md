@@ -24,4 +24,13 @@ It automates the attendance process by detecting and recognizing known faces thr
    ```bash
    git clone https://github.com/YourUsername/FaceTrack-Attendance-System.git
    cd FaceTrack-Attendance-System
+2. **Install dependencies**
+pip install opencv-python
+pip install face_recognition
+pip install numpy
+3. **Prepare known faces**
+• Place your known face images inside the AttendancePhotos folder.
+• Each image filename should be the person's name.
+4. **Run the project**
+python main.py
 
