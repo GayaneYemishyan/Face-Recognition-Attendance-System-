@@ -44,14 +44,4 @@ pip install numpy
 python AttendanceProject.py
 ```
 
-```bash 
 
-### 🧠 Important Tips:
-- Make sure the **code blocks** are wrapped with triple backticks ( \`\`\` ) — not single ones.
-- Leave a **blank line** before and after the code block and each section title for proper spacing.
-- When editing on GitHub, use the **“Preview” tab** to check how it will render.
-
----
-
-If it still doesn’t show correctly, feel free to paste your exact markdown snippet here — I’ll fix it line by line for you!
-```
