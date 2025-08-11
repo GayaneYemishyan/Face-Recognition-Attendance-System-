@@ -1,47 +1,57 @@
-# FaceTrack Attendance System 🎥🧠
+# Face Recognition Attendance System
 
-## Project Overview
-FaceTrack Attendance System is a real-time face recognition-based attendance application built with Python, OpenCV, and face_recognition.  
-It automates the attendance process by detecting and recognizing known faces through a webcam feed and logs the first appearance time of each recognized individual. Unknown faces are detected and flagged separately to ensure security.
+A Face Recognition Attendance System using computer vision and machine learning to automate and streamline the process of taking attendance. This project leverages facial recognition algorithms to identify individuals in real-time and record their attendance accurately.
 
 ## Features
-- 📸 Real-time face detection and recognition
-- 🧾 Automated attendance marking with timestamps
-- 👥 Simultaneous multiple face recognition
-- 🚨 Unknown face detection and warning
-- 🗂️ Attendance saved in CSV file format
+
+- Real-time face detection and recognition using a webcam or image files
+- Face outlining on detected faces using NumPy and OpenCV
+- Attendance logging with timestamps (CSV export)
+- Register new users by capturing their face images
 
 ## Technologies Used
-- Python 3
+
+- Python
 - OpenCV
-- face_recognition (based on dlib)
-- NumPy
+- face_recognition (dlib)
+- numpy
+- csv (Python standard library)
 
 ## Installation
 
-1. **Clone the repository**
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YourUsername/FaceTrack-Attendance-System.git
-   cd FaceTrack-Attendance-System
+   git clone https://github.com/GayaneYemishyan/Face-Recognition-Attendance-System-.git
+   cd Face-Recognition-Attendance-System-
+   ```
 
-2. **Install dependencies**
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```bash
-pip install opencv-python
-pip install face_recognition
-pip install numpy
+3. **Run the application:**
+   ```bash
+   python main.py
+   ```
+
+## Usage
+
+- Register new users by capturing their face images.
+- Start the attendance process; the system will recognize faces and automatically mark attendance.
+- Attendance records are saved in CSV format for further processing.
+
+## Repository Structure
+
+```
+├── main.py         # Main application file
+├── README.md       # Project description and instructions
 ```
 
-3. **Prepare known faces**
-   
-• Place your known face images inside the AttendancePhotos folder.
+## License
 
-• Each image filename should be the person's name.
+This project is licensed under the MIT License.
 
-4. **Run the project**
+---
 
-```bash 
-python AttendanceProject.py
-```
-
-
+*For any questions or suggestions, please open an issue or contact the repository owner.*
